@@ -1,5 +1,7 @@
 {
   "scripts": {
+    "check-quality": "eslint ./ --no-fix --max-warnings 0",
+    "eslintfix" : "eslint ./ --fix",
     "prettier": "prettier --write ./"
   },
   "dependencies": {
